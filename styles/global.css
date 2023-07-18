@@ -136,7 +136,7 @@ main {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 128px;
-    padding: 100px 300px 100px 300px;
+    padding: 100px 300px;
     display: flex;
     align-items: center;
     gap: 186px;
@@ -186,4 +186,29 @@ main {
     width: 70%;
     border: 0;
     margin-right: 16px;
+}
+
+/* footer styles */
+footer {
+    background: #111010;
+    padding: 128px 600px;
+    text-align: center;
+}
+
+footer .title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+footer .description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer .copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
