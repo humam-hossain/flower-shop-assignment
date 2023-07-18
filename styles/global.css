@@ -11,7 +11,30 @@ body {
     border: 0;
 }
 
+.section-content {
+    text-align: center;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
 /* header styles */
+header {
+    margin-bottom: 50px;
+}
+
 .banner {
     display: flex;
     justify-content: space-between;
@@ -38,4 +61,68 @@ body {
 .banner .image {
     width: 635px;
     height: 800px;
+}
+
+/* main styles */
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* feathered section styles */
+.featured {
+    margin-top: 128px;
+}
+
+.featured-items-container {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container{
+    border-radius: 300px 300px 0px 0px;
+}
+
+.bg-pink {
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0 76px;
+}
+
+.bg-blue {
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px 47px;
+}
+
+.bg-yellow {
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0 75px;
+}
+
+.item-footer {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+/* services styles */
+.services {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 128px;
+    padding: 85px 175px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .item {
+    text-align: center;
+}
+
+.services .item .info {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
 }
