@@ -3,6 +3,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.text-primary {
+    color: #E55473;
+}
+
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
@@ -125,4 +129,34 @@ main {
     color: rgba(39, 39, 39, 0.80);
     font-size: 24px;
     font-weight: 600;
+}
+
+/* call-to-action styles */
+.ad {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+    padding: 100px 300px 100px 300px;
+    display: flex;
+    align-items: center;
+    gap: 186px;
+}
+
+.ad-container {
+    text-align: center;
+}
+
+.ad-container .title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.ad-container .description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 52px;
 }
